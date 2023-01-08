@@ -25,6 +25,7 @@ body {
   border-radius: 50px;
   background: #a42cd6;
   box-shadow: inset 20px 20px 60px #8b25b6, inset -20px -20px 60px #bd33f6;
+  width: 500px;
 }
 input {
   background-color: transparent;
@@ -32,6 +33,8 @@ input {
   border-radius: 10px;
   padding: 0.6em;
   font-size: 10pt;
+  color: aliceblue;
+  width: 100%;
 }
 input::placeholder {
   color: aliceblue;
@@ -39,7 +42,10 @@ input::placeholder {
 #campos {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  width: 100%;
 }
 button {
   background-color: #007bff;
@@ -48,4 +54,5 @@ button {
   border-radius: 16px;
   font-size: 12pt;
   padding: 0.3em;
+  width: 150px;
 }
